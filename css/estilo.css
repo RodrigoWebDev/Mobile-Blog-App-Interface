@@ -1,11 +1,14 @@
 /*--GERAL--*/
+
 *{
     padding:0;
     margin:0;
     box-sizing:border-box;
 }
 body{
-    background-color:#DBE2EC;
+    background-color:#F0F8FF;
+    font-family: 'Source Sans Pro', sans-serif;
+    
 }
 
 .container{
@@ -16,6 +19,7 @@ body{
 .primeira-pagina{
     color:#FFFFFF;
     text-transform:uppercase;
+    display:none;
 }
 .primeira-pagina h1{
     margin-bottom:10%;
@@ -59,7 +63,16 @@ header{
 
 /*--SEGUNDA PAGINA--*/
 .segunda-pagina{
-    display:none;
+    /*display:none;*/
+    font-size:0.9rem;
+    padding:1rem;
+   
+}
+
+.segunda-pagina p::first-letter{
+    font-size:5rem;
+    float:left;
+    padding:0.5rem;
 }
 
 /*--TERCEIRA PAGINA--*/
