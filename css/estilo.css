@@ -1,0 +1,86 @@
+/*--GERAL--*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#DBE2EC;
+}
+
+.container{
+    background:#FFFFFF;
+}
+
+/*PRIMEIRA PAGINA*/
+.primeira-pagina{
+    color:#FFFFFF;
+    text-transform:uppercase;
+}
+.primeira-pagina h1{
+    margin-bottom:10%;
+    line-height: 170%;;
+    font-size:2.5rem;
+    text-shadow: 1px 2px black;
+}
+.primeira-pagina h2{
+    font-size:x-small;
+}
+
+header{
+    background-image:url(../imagens/digital%20nomad.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+}
+
+.primeira-pagina div{
+    padding:20px;
+    margin-right:4rem;
+}
+
+.primeira-pagina button{
+    padding:4px 10px;
+    border:none;
+    border-radius:2px;
+    color:black;
+    margin-top: 2rem;
+    letter-spacing:0.2rem;
+    box-shadow:1px 1px 3px black
+}
+
+.primeira-pagina button:hover{
+    background-color:#B8860B;
+    color:white;
+    transition: color 0.5s, background 0.5s;
+}
+
+/*--SEGUNDA PAGINA--*/
+.segunda-pagina{
+    display:none;
+}
+
+/*--TERCEIRA PAGINA--*/
+.terceira-pagina{
+    display:none;
+}
+
+/*--FOOTER--*/
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    text-transform:uppercase;
+    padding:10px;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100vw;
+    background-color:white;
+}
+
+footer .pontos{
+    color:grey;
+}
